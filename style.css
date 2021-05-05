@@ -1,0 +1,67 @@
+body {
+  background-color: dodgerblue;
+}
+img {
+  margin: 5px;
+  border: 2px solid black;
+}
+ul {
+  margin: 5px;
+  font-family: cursive;
+}
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+h3 {
+  color: rgb(0, 50, 255);
+  font-family: cursive;
+}
+.origami {
+  border: 3px solid white;
+  padding: 5px;
+  text-align: center;
+}
+
+.bodyImg {
+  text-align: center;
+  position: relative;
+}
+.bodyImg h1 {
+  font-size: 100px;
+  font-family: fantasy;
+  color: gold;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bodyImg p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  color: white;
+  font-size: 25px;
+}
+a:link {
+  color: blue;
+  font-size: large;
+}
+a:hover {
+  color: red;
+  font-size: large;
+}
+a:visited {
+  color: yellow;
+  font-size: large;
+}
+.origami a:hover {
+  opacity: 0.5;
+}
+
+.origami p {
+  font-size: 10px;
+  text-decoration: underline;
+}
